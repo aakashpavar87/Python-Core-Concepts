@@ -2,7 +2,20 @@ Python
 1. Fundamentals and Core Concepts || Checked
 2. String, Loops, Lists, Condition, Sets, Dictionaries and Tuples with its
 methods and Operations. || 
+-> String Checked
+-> Loops Checked
+-> Conditionals Checked
+-> Tuples Checked
+-> Sets Checked
+-> List Checked
+-> Dictionaries Checked
 3. Operators
+-> Arithmetic Checked
+-> Logical Checked (and, or, not)
+-> Identity (is , is not)
+-> Membership (in , not in)
+-> Relational (< ,> ,<= ,>= ,== )
+
 4. User input & String formatting
 5. Functions & *Args/**Kwags
 6. Inbuilt Function & Lambda Function

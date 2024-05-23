@@ -1,7 +1,8 @@
 import random
-fruits = ['banana', 'orange', 'mango', 'lemon', 'grapes', {'name': 'Aakash'}]
 
-a,b,c,*d, name_dict=fruits
+fruits = ["banana", "orange", "mango", "lemon", "grapes", {"name": "Aakash"}]
+
+a, b, c, *d, name_dict = fruits
 
 print(a)
 print(b)
@@ -11,13 +12,13 @@ print(name_dict)
 
 print(fruits[-3:-1])
 
-mydict = {'name': 'Aakash'}
+mydict = {"name": "Aakash"}
 
 print(mydict in fruits)
 
 # ? Appending items to list and Inserting items at specific index of list
 
-numbers = [12,22,33,44,554,56]
+numbers = [12, 22, 33, 44, 554, 56]
 numbers.append("New Number")
 # print(numbers)
 
@@ -28,22 +29,22 @@ numbers.insert(-3, "Inserted Item")
 
 # ? Removing item from list
 
-numbers.remove('Inserted Item')
+numbers.remove("Inserted Item")
 print(numbers)
 
 # ? Poping out top elements of list last element
 
 print(numbers.pop(2))
 
-numbers.insert(1, [12,34,66])
+numbers.insert(1, [12, 34, 66])
 
 print(numbers)
 
-cricket_items = ["bat", "ball", "stumps" ,"bails"]
+cricket_items = ["bat", "ball", "stumps", "bails"]
 
 valleyball_items = ["ball", "net"]
 
-playing_items = cricket_items+valleyball_items
+playing_items = cricket_items + valleyball_items
 
 print(playing_items)
 
@@ -59,15 +60,15 @@ cricket_items.reverse()
 
 print(cricket_items)
 
-front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
-back_end = ['Node','Express', 'MongoDB']
+front_end = ["HTML", "CSS", "JS", "React", "Redux"]
+back_end = ["Node", "Express", "MongoDB"]
 
-full_stack_tech = (front_end + back_end)
+full_stack_tech = front_end + back_end
 
 print(full_stack_tech)
 
-full_stack_tech.insert(5, 'Python')
-full_stack_tech.insert(6, 'SQL')
+full_stack_tech.insert(5, "Python")
+full_stack_tech.insert(6, "SQL")
 
 print(full_stack_tech)
 
@@ -84,10 +85,3 @@ a = ("Jjnkfwr", "Jane", "Jtnh")
 # * x = sorted(a, key=len)
 x = sorted(a, key=len)
 print(x)
-
-
-
-
-
-
-

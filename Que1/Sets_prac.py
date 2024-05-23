@@ -62,3 +62,10 @@ print(python.symmetric_difference(dragon))
 # ! discard method don't throws error if element is not found but remove method throws error if element not found
 # * it_companies.discard("Meta")
 # * print(it_companies)
+
+seta = {1, 2}
+setb = {1, 4}
+
+print(seta.difference(setb))
+print(setb.difference(seta))
+print(setb.symmetric_difference(seta))
