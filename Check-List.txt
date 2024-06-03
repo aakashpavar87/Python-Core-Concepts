@@ -21,7 +21,7 @@ methods and Operations. ||
 6. Inbuilt Function Checked & -> Lambda Function Checked
 7. Scopes Checked
 8. Type casting Checked
-9. Modules and Packages
+9. Modules and Packages Checked 
 10. Files Module
 11. OOPS Concept
 -> Class,
