@@ -22,8 +22,8 @@ methods and Operations. ||
 7. Scopes Checked
 8. Type casting Checked
 9. Modules and Packages Checked 
-10. Files Module
-11. OOPS Concept
+10. Files Module Checked
+11. OOPS Concept 
 -> Class,
 -> Object,
 -> Constructors(magic methods),
