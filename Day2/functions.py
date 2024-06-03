@@ -131,12 +131,49 @@ add4 = create_adder(4, 5)
 
 # print(add4(16))
 
-
 # ! Lambda Functions practice
 
 addTwoNum = lambda num1, num2: num1 + num2
 
 checkIsEven = lambda num1: num1 % 2 == 0
 
+squareList = lambda numbers: [number**2 for number in numbers]
 
-print(checkIsEven(12))
+filterOutEvenNumber = lambda numbers: [number for number in numbers if number % 2 == 0]
+
+# print(sorted([(11, 12), (34, 545), (55, 44), (56, 2)], key=lambda x: x[1]))
+
+reverseString = lambda name: name[::-1]
+
+removeVowels = lambda string: "".join(
+    filter(lambda c: c.lower() not in "aeiou", string)
+)
+
+sentence = "my name is aakash pavar"
+capitalise_each_word = lambda sentence: " ".join(
+    map(lambda word: word.capitalize(), sentence.split(" "))
+)
+print(capitalise_each_word(sentence))
+
+mydict = {
+    "city": "Surat",
+    "town": "Ahmedabad",
+    "name": "Aakash",
+    "language": "Gujarati",
+}
+print(mydict)
+sortedDict = dict(sorted(mydict.items(), key=lambda item: item[1]))
+print(sortedDict)
+
+
+list_of_dict = [
+    {"name": "Aakash", "age": 19},
+    {"name": "Bhavesh", "age": 16},
+    {"name": "Harsh", "age": 21},
+    {"name": "Tarun", "age": 22},
+]
+
+# ! Because filter, map and reduce method returns list
+harsh_dict = list(filter(lambda l: l["name"] == "Harsh", list_of_dict))[0]
+
+print(harsh_dict)
