@@ -1,16 +1,19 @@
 #   String methods practice
 
+
 def myFunction(data):
-    print('In my Function ', len(data))
-    
-    reversed_string = ''
+    print("In my Function ", len(data))
+
+    reversed_string = ""
     for i in range(len(data) - 1, -1, -1):
         reversed_string += data[i]
     return reversed_string
 
+
 def secondFunction(data):
     return data[::-1]
     # return reversed(data)
+
 
 # print(myFunction('Aakash'))
 
@@ -19,8 +22,9 @@ def secondFunction(data):
 
 # Printing Table pattern
 
+
 def printTable():
-    numbers = [1,2,3,4,5]
+    numbers = [1, 2, 3, 4, 5]
     for i in range(len(numbers)):
         for j in range(len(numbers)):
             if j == 0 or j == 2:
@@ -28,15 +32,16 @@ def printTable():
             elif i == 1:
                 print(numbers[i] ** 0, end="\t ")
             else:
-                print(numbers[i] ** (j-1), end="\t ")
+                print(numbers[i] ** (j - 1), end="\t ")
         print()
-        
+
+
 # printTable()
 
 
-# In - Built String Methods
+# ! In - Built String Methods
 
-a_str = "AakashA"
+a_str = "Aakash"
 
 print(f"Capitalized Word : {a_str.capitalize()}")
 
@@ -69,6 +74,4 @@ print(f"Replace fn of String : {a_str.replace('a', 'A')}")
 
 print("\t\tspaced word\t\t".strip())
 
-print(' , '.join(["c", "cpp", "python"]))
-
-
+print(" , ".join(["c", "cpp", "python"]))

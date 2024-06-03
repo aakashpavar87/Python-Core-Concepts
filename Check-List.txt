@@ -12,13 +12,13 @@ methods and Operations. ||
 3. Operators
 -> Arithmetic Checked
 -> Logical Checked (and, or, not)
--> Identity (is , is not)
--> Membership (in , not in)
--> Relational (< ,> ,<= ,>= ,== )
+-> Identity Checked (is , is not)
+-> Membership Checked (in , not in)
+-> Relational Checked (< ,> ,<= ,>= ,== )
 
-4. User input & String formatting
-5. Functions & *Args/**Kwags
-6. Inbuilt Function & Lambda Function
+4. User input & String formatting Checked
+5. Functions & *Args/**Kwags Checked
+6. Inbuilt Function & -> Lambda Function Checked
 7. Scopes
 8. Type casting
 9. Modules and Packages

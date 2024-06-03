@@ -20,6 +20,7 @@ set1.update(["12", 98])
 st1 = {"item1", "item2", "item3", "item4", "item5", "item6"}
 st2 = {"item5", "item6", "item7", "item2", "item8"}
 st3 = {"item5", "item6"}
+
 # ! st3 = st1.union(st2) it is used to find union of two sets
 # ? This method is used to insert more than one elements in set
 # st1.update(st2)

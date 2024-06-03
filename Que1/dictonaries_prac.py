@@ -35,8 +35,8 @@ person["is_married"] = False
 
 # person.popitem()
 
-# del person["skills"]
-# for value in pers
+# * del person["skills"]
+# * for value in pers
 
 # ? dict.values() it will give list of all values in dict
 # ? dict.keys() it will give list of all keys in dict
@@ -45,8 +45,8 @@ print(dict.fromkeys(["age", "name"], "N/A"))
 
 # ! Iterating from each value in dictionary by .items() method
 
-# for key, value in person.items():
-#     print(f"{key} : {value}")
+# ? for key, value in person.items():
+# ?    print(f"{key} : {value}")
 
 x = ("key1", "key2", "key3")
 y = 0

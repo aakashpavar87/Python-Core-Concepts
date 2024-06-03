@@ -6,11 +6,12 @@ age = [22, 19, 24, 25, 26, 24, 25, 24]
 it_companies.add("Twitter")
 print(len(it_companies))
 
+# ! Update fn is used add multiple items in set
 it_companies.update(["Adobe", "Netflix", "Meta"])
 print(it_companies)
 
-
-# it_companies.remove("Meta")
+# ! remove methods throws error if element not found
+# ? it_companies.remove("Meta")
 
 # ! discard method don't throws error if element is not found but remove method throws error if element not found
 it_companies.discard("Meta")
