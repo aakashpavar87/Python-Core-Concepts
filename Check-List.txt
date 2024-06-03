@@ -18,19 +18,19 @@ methods and Operations. ||
 
 4. User input & String formatting Checked
 5. Functions & *Args/**Kwags Checked
-6. Inbuilt Function & -> Lambda Function Checked
-7. Scopes
-8. Type casting
+6. Inbuilt Function Checked & -> Lambda Function Checked
+7. Scopes Checked
+8. Type casting Checked
 9. Modules and Packages
 10. Files Module
 11. OOPS Concept
-Class,
-Object,
-Constructors(magic methods),
-Inheritance,
-Polymorphism,
-Abstraction,
-Encapsulation
+-> Class,
+-> Object,
+-> Constructors(magic methods),
+-> Inheritance,
+-> Polymorphism,
+-> Abstraction,
+-> Encapsulation
 12. Break, Continue, Pass keyword uses & range() Function
 13. Files I/O (How to read, write, append, etc.)
 14. Python Exceptions
