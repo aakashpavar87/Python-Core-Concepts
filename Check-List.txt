@@ -31,8 +31,8 @@ methods and Operations. ||
 -> Polymorphism,
 -> Abstraction,
 -> Encapsulation
-12. Break, Continue, Pass keyword uses & range() Function
-13. Files I/O (How to read, write, append, etc.)
+12. Break, Continue, Pass keyword uses & range() Function Checked
+13. Files I/O (How to read, write, append, etc.) Checked
 14. Python Exceptions
 15. Python date & regex library.
 16. Python List & Dict comprehension & Iterators
