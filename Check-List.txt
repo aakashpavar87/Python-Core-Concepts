@@ -26,18 +26,18 @@ methods and Operations. ||
 11. OOPS Concept 
 -> Class, Checked
 -> Object, Checked
--> Constructors(magic methods),
+-> Constructors(magic methods), Checked
 -> Inheritance, Checked
 -> Polymorphism, Checked
 -> Abstraction, Checked
 -> Encapsulation Checked
 12. Break, Continue, Pass keyword uses & range() Function Checked 
 13. Files I/O (How to read, write, append, etc.) Checked
-14. Python Exceptions
+14. Python Exceptions 
 15. Python date & regex library.
 16. Python List & Dict comprehension & Iterators
 17. Python OS module, Random module & pandas.
 18. Python Decorators & Generators
-19. Access Modifiers & Escape character
-20. Create Virtual environment & managing package with pip
-21. Code structure of Python.
+19. Access Modifiers & Escape character Checked
+20. Create Virtual environment & managing package with pip Checked
+21. Code structure of Python. Checked
