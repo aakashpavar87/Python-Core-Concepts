@@ -24,14 +24,14 @@ methods and Operations. ||
 9. Modules and Packages Checked 
 10. Files Module Checked
 11. OOPS Concept 
--> Class,
--> Object,
+-> Class, Checked
+-> Object, Checked
 -> Constructors(magic methods),
--> Inheritance,
--> Polymorphism,
--> Abstraction,
--> Encapsulation
-12. Break, Continue, Pass keyword uses & range() Function Checked
+-> Inheritance, Checked
+-> Polymorphism, Checked
+-> Abstraction, Checked
+-> Encapsulation Checked
+12. Break, Continue, Pass keyword uses & range() Function Checked 
 13. Files I/O (How to read, write, append, etc.) Checked
 14. Python Exceptions
 15. Python date & regex library.
