@@ -3,8 +3,8 @@ class Test:
 
 
 t = Test()
-t.de = "Hell"
-print(t.de)
+t.de = "Hell"  # type: ignore
+print(t.de)  # type: ignore
 
 
 class Me:
@@ -13,12 +13,17 @@ class Me:
 
 He = type("He", (Me,), {"him": "Hahaha", "fun": "nothing"})
 
+
+def justfun(self):
+    print("Just for fun")
+
+
 print(He.him)  # type: ignore
 print(He.name)
-print(He.fun)
+print(He.fun)  # type: ignore
 
 
-Test1 = type("Test1", (), {})
+Test1 = type("Test1", (He,), {"justfun": justfun})
 
-print(type(Test1))
-print(type(Test))
+newtest = Test1()  # type: ignore
+newtest.justfun()  # type: ignore
