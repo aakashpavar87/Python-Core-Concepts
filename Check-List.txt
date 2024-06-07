@@ -1,43 +1,48 @@
 Python
-1. Fundamentals and Core Concepts || Checked
+1. Fundamentals and Core Concepts || ✅
 2. String, Loops, Lists, Condition, Sets, Dictionaries and Tuples with its
 methods and Operations. || 
--> String Checked
--> Loops Checked
--> Conditionals Checked
--> Tuples Checked
--> Sets Checked
--> List Checked
--> Dictionaries Checked
+-> String ✅
+-> Loops ✅
+-> Conditionals ✅
+-> Tuples ✅
+-> Sets ✅
+-> List ✅
+-> Dictionaries ✅
 3. Operators
--> Arithmetic Checked
--> Logical Checked (and, or, not)
--> Identity Checked (is , is not)
--> Membership Checked (in , not in)
--> Relational Checked (< ,> ,<= ,>= ,== )
+-> Arithmetic ✅
+-> Logical ✅ (and, or, not)
+-> Identity ✅ (is , is not)
+-> Membership ✅ (in , not in)
+-> Relational ✅ (< ,> ,<= ,>= ,== )
 
-4. User input & String formatting Checked
-5. Functions & *Args/**Kwags Checked
-6. Inbuilt Function Checked & -> Lambda Function Checked
-7. Scopes Checked
-8. Type casting Checked
-9. Modules and Packages Checked 
-10. Files Module Checked
+4. User input & String formatting ✅
+5. Functions & *Args/**Kwags ✅
+6. Inbuilt Function ✅ & -> Lambda Function ✅
+7. Scopes ✅
+8. Type casting ✅
+9. Modules and Packages ✅ 
+10. Files Module ✅
 11. OOPS Concept 
--> Class, Checked
--> Object, Checked
--> Constructors(magic methods), Checked
--> Inheritance, Checked
--> Polymorphism, Checked
--> Abstraction, Checked
--> Encapsulation Checked
-12. Break, Continue, Pass keyword uses & range() Function Checked 
-13. Files I/O (How to read, write, append, etc.) Checked
-14. Python Exceptions 
-15. Python date & regex library.
-16. Python List & Dict comprehension & Iterators
-17. Python OS module, Random module & pandas.
-18. Python Decorators & Generators
-19. Access Modifiers & Escape character Checked
-20. Create Virtual environment & managing package with pip Checked
-21. Code structure of Python. Checked
+-> Class, ✅
+-> Object, ✅
+-> Constructors(magic methods, dunder methods), ✅
+-> Inheritance, ✅
+-> Polymorphism, ✅
+-> Abstraction, ✅
+-> Encapsulation ✅
+12. Break, Continue, Pass keyword uses & range() Function ✅ 
+13. Files I/O (How to read, write, append, etc.) ✅
+14. Python Exceptions ✅
+15. Python 
+    date & ✅
+    regex library. ✅
+16. Python List & Dict comprehension & Iterators ✅
+17. Python 
+    OS module, ✅
+    Random module & ✅
+    pandas ✅
+18. Python Decorators & Generators ✅
+19. Access Modifiers & Escape character ✅
+20. Create Virtual environment & managing package with pip ✅
+21. Code structure of Python. ✅

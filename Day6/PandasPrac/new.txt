@@ -1,0 +1,5 @@
+Name	Salary	IsProgrammer
+Aakash	15000	Yes
+Bhavesh	2400	No
+Bharat	2500	Yes
+Rahul	140	No
